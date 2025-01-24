@@ -24,4 +24,4 @@ ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 EXPOSE 8080
 
 # Set the default command to run Jenkins
-CMD ["jenkins"]
+CMD ["jenkins.sh"]
