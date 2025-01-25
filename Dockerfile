@@ -25,6 +25,6 @@ ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 
 # Expose Jenkins port
 EXPOSE 8080
-
+VOLUME jenkins_home:/var/jenkins_home
 # Set the default command to run Jenkins
 CMD ["jenkins.sh"]
