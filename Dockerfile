@@ -23,6 +23,8 @@ USER jenkins
 
 # Set environment variables
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
+ENV ENABLE_USER_REGISTRATION=true
+ENV REQUIRE_ADMIN_APPROVAL=true
 
 # Copy additional configuration files (if any)
 # COPY custom_jenkins_config.xml /var/jenkins_home/
