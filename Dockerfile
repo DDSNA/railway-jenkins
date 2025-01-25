@@ -9,6 +9,9 @@ RUN apt-get update && apt-get install -y \
     docker.io \
     git \
     curl \
+    ruby \
+    make \
+     \
     && rm -rf /var/lib/apt/lists/*
 
 # Switch back to the Jenkins user
