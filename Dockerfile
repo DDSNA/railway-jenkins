@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
     make \
     ansible \
     && rm -rf /var/lib/apt/lists/*
-
+RUN echo $JENKINS_HOME
 # Switch back to the Jenkins user
 USER jenkins
 
