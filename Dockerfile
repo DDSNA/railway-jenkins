@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     ruby \
     make \
-     \
+    ansible \
     && rm -rf /var/lib/apt/lists/*
 
 # Switch back to the Jenkins user
